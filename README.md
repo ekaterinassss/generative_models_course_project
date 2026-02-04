@@ -90,21 +90,29 @@ Results were summarized in evaluation tables and visual comparison plots.
 - Matplotlib
 - Scikit-learn
 
-## How to run?
+## How to Run
 
 ### 1) Clone repository
 ```bash
 git clone https://github.com/ekaterinassss/generative_models_course_project.git
 cd generative_models_course_project
+```
 
 ### 2) Create virtual environment
+```bash
 python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 # .venv\Scripts\activate   # Windows
+```
 
 ### 3) Install dependencies
+```bash
 pip install -U pip
 pip install -r requirements.txt
+```
 
 ### 4) Launch notebook
+```bash
 jupyter lab
+```
+
