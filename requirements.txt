@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+statsmodels
+yfinance
+tqdm
+torch
+torchvision
+torchaudio
+jupyterlab
+notebook
+ipykernel
+papermill
