@@ -90,6 +90,3 @@ Results were summarized in evaluation tables and visual comparison plots.
 - Matplotlib
 - Scikit-learn
 
-
-## Project Structure
-
