@@ -116,3 +116,31 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
+## Presentation
+
+Project presentation is available here:
+[presentation/Generative_models_presentation.pptx](presentation/Generative_models_presentation.pptx)
+
+
+## Results
+
+### Statistical Comparison of Generative Models
+
+| Metric | Original | GAN | TimeGAN | MTSS-GAN | Diffusion | Previous Day Baseline |
+|----------|------------|-----------|--------------|---------------|--------------|------------------------|
+| Explained Variance | 0.001124 | -0.035098 | -0.010216 | -0.291834 | -0.003617 | -1.012976 |
+| Max Error | 37.877058 | 37.698592 | 38.816030 | 36.970141 | 37.748598 | 38.335285 |
+| Mean Absolute Error | 1.486249 | 1.530270 | 1.491838 | 1.763139 | 1.489851 | 2.156618 |
+| Mean Squared Error | 5.176035 | 5.368649 | 5.291030 | 6.728434 | 5.226372 | 10.427247 |
+| Mean Squared Log Error | 0.004859 | 0.004990 | 0.004973 | 0.005869 | 0.004904 | 0.009474 |
+| Median Absolute Error | 0.991743 | 1.034137 | 0.989556 | 1.224650 | 0.988109 | 1.455725 |
+| R² Score | 0.000768 | -0.036416 | -0.021431 | -0.298922 | -0.008949 | -1.012976 |
+
+
+### Key Observations
+
+- Diffusion model demonstrates the best overall performance across most statistical metrics.
+- MTSS-GAN shows larger errors but captures regime dynamics.
+- All generative models outperform the naive "previous day" baseline.
+
+
