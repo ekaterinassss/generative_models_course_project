@@ -126,7 +126,7 @@ Project presentation is available here:
 
 ### Statistical Comparison of Generative Models
 
-| Metric | Original | GAN | TimeGAN | MTSS-GAN | Diffusion | Previous Day Baseline |
+| Metric | Original | GAN | TimeGAN | MTSS-GAN | Diffusion | Previous Day |
 |----------|------------|-----------|--------------|---------------|--------------|------------------------|
 | Explained Variance | 0.001124 | -0.035098 | -0.010216 | -0.291834 | -0.003617 | -1.012976 |
 | Max Error | 37.877058 | 37.698592 | 38.816030 | 36.970141 | 37.748598 | 38.335285 |
@@ -136,6 +136,7 @@ Project presentation is available here:
 | Median Absolute Error | 0.991743 | 1.034137 | 0.989556 | 1.224650 | 0.988109 | 1.455725 |
 | R² Score | 0.000768 | -0.036416 | -0.021431 | -0.298922 | -0.008949 | -1.012976 |
 
+Results shold be close to "Original".
 
 ### Key Observations
 
